@@ -643,10 +643,11 @@ footer * {
     flex-wrap: wrap;
     justify-content: flex-start;
     gap: 1rem;
+    padding-top: 0.5rem;
   }
 
   .lang-toggle {
-    margin-top: 1rem;
+    margin-top: 0.5rem;
   }
 
   h1, h2, p {
@@ -659,11 +660,16 @@ footer * {
     height: auto;
   }
 
-  .works-grid,
+  .works-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 0 1rem;
+  }
+
   .press-grid {
     grid-template-columns: 1fr;
-    padding: 0 1rem;
     gap: 1.5rem;
+    padding: 0 1rem;
   }
 
   .work-card,

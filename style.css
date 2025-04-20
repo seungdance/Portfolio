@@ -696,7 +696,10 @@ footer * {
 /* Mobile nav menu */
 @media (max-width: 768px) {
   .hamburger {
-    display: block;
+    
+    flex: 1;
+  display: flex;
+  justify-content: flex-end;
   }
 
   .nav-links {
@@ -756,4 +759,22 @@ img {
 .work-card,
 .press-item {
   padding: 1rem 0.5rem;
+}
+header.navbar {
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar {
+  gap: 0.5rem;
+}
+
+.logo {
+  flex: 1;
+}
+.lang-toggle {
+  flex: 1;
+  display: flex;
+  justify-content: center;
 }

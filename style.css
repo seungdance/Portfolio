@@ -614,3 +614,9 @@ button:active {
 #name {
   text-align: left;
 }
+footer {
+  text-align: center;
+  padding: 3rem 0;
+  font-size: 0.9rem;
+  color: #888;
+}

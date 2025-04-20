@@ -615,8 +615,8 @@ button:active {
   text-align: left;
 }
 footer {
-  text-align: center;
-  padding: 3rem 0;
+  text-align: left;
+  padding: 3rem 2rem;
   font-size: 0.9rem;
   color: #888;
 }

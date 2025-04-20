@@ -693,22 +693,22 @@ footer * {
 }
 
 /* Mobile nav menu */
+/* Mobile nav menu */
 @media (max-width: 768px) {
-  .hamburger {
-    display: block;
-  }
-
   .nav-links {
-    display: none;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.4s ease;
     flex-direction: column;
     width: 100%;
     background: #000;
     margin-top: 1rem;
-    padding: 1rem;
+    padding: 0 1rem;
   }
 
   .nav-links.show {
-    display: flex;
+    max-height: 500px; /* enough height to show all links */
+    padding: 1rem;
   }
 
   .nav-links a {

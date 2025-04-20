@@ -696,8 +696,8 @@ footer * {
 /* Mobile nav menu */
 @media (max-width: 768px) {
   .hamburger {
-    
-    flex: 1;
+ order: 3;
+  flex: 1;
   display: flex;
   justify-content: flex-end;
   }
@@ -771,9 +771,11 @@ header.navbar {
 }
 
 .logo {
+    order: 1;
   flex: 1;
 }
 .lang-toggle {
+  order: 2;
   flex: 1;
   display: flex;
   justify-content: center;

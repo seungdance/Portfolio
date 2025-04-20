@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fortpolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet" />
+    <!-- Add to index.html <head> -->
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@600&family=Work+Sans&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="icon" href="favicon.ico" />
+    <meta
+      name="description"
+      content="Seunghwan Lee - Contemporary Dancer, Choreographer & Frontend Designer Portfolio Website. View works, press reviews, and contact details." />
+  </head>
+  <body>
+    <header class="navbar">
+      <a href="index.html">
+        <div class="logo">Portfolio</div>
+      </a>
+      <nav class="nav-links">
+        <a href="#about" data-en="About" data-de="Über Mich">About</a>
+        <a href="#works" data-en="Works" data-de="Arbeiten">Works</a>
+        <a href="#press" data-en="Press" data-de="Kritik">Press</a>
+        <a href="#contact" data-en="Contact" data-de="Kontakt">Contact</a>
+      </nav>
+      <div class="lang-toggle">
+        <button id="enBtn">EN</button>
+        <button id="deBtn">DE</button>
+      </div>
+    </header>
+
+    <main>
+      <section id="about" class="fade-in">
+        <div class="container">
+          <img src="image/Tube.jpg" alt="Portrait for About section" />
+          <h1 data-en="About Me" data-de="Über Mich">About Me</h1>
+          <h1 id="name">Seung Hwan Lee</h1>
+
+          <h2 data-en="Dancer" data-de="Tänzer">Dancer</h2>
+          <p
+            data-en="2016-2019: Collaborated with Yoshiko Waki, Sebastian Elier, and the Deutsche Oper. Further project-based engagements followed
+            at theaters in Münster, Berlin, Nuremberg, Görlitz, and Vienna.\n 2019-2021: Member of the ensemble at Norrdans in Sweden.\nSince 2021: Ongoing collaborations with La_Trottier Dance Company, Backstein Produktion Haus and Juliette Villemin. "
+            data-de="2016-2019: Zusammenarbeit mit Yoshiko Waki, Sebastian Elier und der Deutschen Oper. Weitere projektbasierte Engagements an Theatern in Münster, Berlin, Nürnberg, Görlitz und Wien.
+              2019-2021: Mitglied des Ensembles von Norrdans in Schweden.
+              Seit 2021: Laufende Kooperationen mit der La_Trottier Dance Company, Backstein Produktion Haus und Juliette Villemin.">
+            2016-2019: Collaborated with Yoshiko Waki, Sebastian Elier, and the Deutsche Oper. Further project-based engagements followed at
+            theaters in Münster, Berlin, Nuremberg, Görlitz, and Vienna.
+            <br />
+
+            2019-2021: Member of the ensemble at Norrdans in Sweden.
+            <br />
+
+            Since 2021: Ongoing collaborations with La_Trottier Dance Company, Backstein Produktion Haus and Juliette Villemin.
+          </p>
+
+          <h2 data-en="Choreographer" data-de="Choreogarf">Choreographer</h2>
+
+          <p
+            data-en="2017: Solo work Unpaved Road received 2nd prize at the Netherlands Choreography Competition, as well as 1st prize and the Audience Award for Best Dance Solo at the Euro-Scene Competition in Leipzig. 
+            2021: Presented the solo piece Soliloquy at the ZUKUNFT TANZT Festival in Frankfurt. Continued choreographic research as part of a residency program in Heidelberg. 
+            2022: Premiered the trio ANIBODY, supported by LaFT BW and the City of Mannheim. 
+            2023: Solo work 12.09.2017 performed at the Tanzbiennale Heidelberg. 
+            2024: New creation Looking for someone to be developed in collaboration with Lake Studios Berlin and LAB Mannheim. Participation in the Fo(u)r Exchange residency in Freiburg."
+            data-de="2017: Die Soloarbeit „Unpaved Road“ wurde mit dem 2. Preis beim Netherlands Choreography Competition ausgezeichnet, sowie mit dem 1. Preis und dem Publikumspreis für das beste Tanzsolo beim Euro-Scene Wettbewerb in Leipzig.
+            2021: Präsentation des Solostücks „Soliloquy“ beim ZUKUNFT TANZT Festival in Frankfurt. Fortsetzung der choreografischen Recherche im Rahmen eines Residenzprogramms in Heidelberg.
+            2022: Premiere des Trios „ANIBODY“, gefördert von LaFT BW und der Stadt Mannheim.
+            2023: Das Solostück „12.09.2017“ wurde bei der Tanzbiennale Heidelberg aufgeführt.
+            2024: Neue Kreation „Looking for someone“ entsteht in Zusammenarbeit mit Lake Studios Berlin und LAB Mannheim. Teilnahme an der Residenz „Fo(u)r Exchange“ in Freiburg.">
+            2017: Solo work Unpaved Road received 2nd prize at the Netherlands Choreography Competition, as well as 1st prize and the
+            Audience Award for Best Dance Solo at the Euro-Scene Competition in Leipzig.
+            <br />
+
+            2021: Presented the solo piece Soliloquy at the ZUKUNFT TANZT Festival in Frankfurt. Continued choreographic research as part of
+            a residency program in Heidelberg.
+            <br />
+
+            2022: Premiered the trio ANIBODY, supported by LaFT BW and the City of Mannheim.
+            <br />
+
+            2023: Solo work 12.09.2017 performed at the Tanzbiennale Heidelberg.
+            <br />
+
+            2024: New creation Looking for someone to be developed in collaboration with Lake Studios Berlin and LAB Mannheim. Participation
+            in the Fo(u)r Exchange residency in Freiburg.
+          </p>
+
+          <h2 data-en="Musician" data-de="Musiker">Musician</h2>
+          <p
+            data-en="Received funding for the music project Bodytunes. Composed soundtracks for various productions, including: “Urban Mother”, “Schneller als das Licht” (Choreography: David Kwiek). Own works include: “Zusammen sind wir hier” and “ANIBODY”."
+            data-de="Förderung für das Musikprojekt „Bodytunes“ erhalten. Komposition von Soundtracks für verschiedene Produktionen, darunter: „Urban Mother“, „Schneller als das Licht“ (Choreografie: David Kwiek). Eigene Werke: „Zusammen sind wir hier“ und „ANIBODY“.">
+            Received funding for the music project Bodytunes. Composed soundtracks for various productions, including: “Urban Mother”,
+            “Schneller als das Licht” (Choreography: David Kwiek). Own works include: “Zusammen sind wir hier” and “ANIBODY”.
+          </p>
+          <h2 data-en="Web Developer" data-de="Webentwickler">Web Developer</h2>
+          <p
+            data-en="Currently undertaking further training in frontend development with a focus on HTML, CSS, JavaScript, and modern web technologies. Developing a personal portfolio website and exploring experimental projects at the intersection of dance, technology, and digital presentation."
+            data-de="Zurzeit in Weiterbildung im Bereich Frontend-Entwicklung mit Fokus auf HTML, CSS, JavaScript und modernen Webtechnologien. Entwicklung einer persönlichen Portfolio-Website und Erforschung experimenteller Projekte an der Schnittstelle von Tanz, Technologie und digitaler Präsentation.">
+            Currently undertaking further training in frontend development with a focus on HTML, CSS, JavaScript, and modern web
+            technologies. Developing a personal portfolio website and exploring experimental projects at the intersection of dance,
+            technology, and digital presentation.
+          </p>
+        </div>
+      </section>
+
+      <section id="works" class="fade-in">
+        <div class="container">
+          <h1 data-en="Works" data-de="Arbeiten">Works</h1>
+          <div class="works-grid">
+            <div class="work-card">
+              <a href="https://youtu.be/gYoq0wW3sP4" target="_blank" rel="noopener noreferrer">
+                <img src="image/Colonialism.png" alt="Colonialism : The Weight of Sound" />
+              </a>
+              <h2 data-en="Colonialism : The Weight of Sound" data-de="Colonialism : The Weight of Sound">
+                Colonialism : The Weight of Sound
+              </h2>
+              <p
+                data-en="A duet about power, violence, and silence told through sound and movement.\n\nOne figure amplifies the sounds of consumption
+              eating, dragging, breathing while the other receives what remains: noises, objects, pressure.\n\nThe piece reflects colonial
+              structures through metaphor: Who is heard? Who is silenced? Who controls the narrative? \n\nThe performers' interaction reveals
+              the tension between voice and voicelessness, dominance and survival an echo of the historical and contemporary weight of
+              colonial reality."
+                data-de="Ein Duett über Macht, Gewalt und Stille - erzählt durch Klang und Bewegung.
+              Eine Figur verstärkt die Geräusche des Konsums - Essen, Ziehen, Atmen - während die andere das Übriggebliebene empfängt: Geräusche, Objekte, Druck.\n
+              Das Stück reflektiert koloniale Strukturen durch Metaphern: Wer wird gehört? Wer wird zum Schweigen gebracht? Wer kontrolliert das Narrativ?\n
+              Die Interaktion der Performer:innen offenbart die Spannung zwischen Stimme und Sprachlosigkeit, zwischen Dominanz und Überleben - ein Echo des historischen und gegenwärtigen Gewichts kolonialer Wirklichkeit.">
+                A duet about power, violence, and silence told through sound and movement.
+                <br />
+                <br />
+                One figure amplifies the sounds of consumption eating, dragging, breathing while the other receives what remains: noises,
+                objects, pressure.
+                <br />
+                <br />
+                The piece reflects colonial structures through metaphor: Who is heard? Who is silenced? Who controls the narrative? The
+                performers' interaction reveals the tension between voice and voicelessness, dominance and survival an echo of the
+                historical and contemporary weight of colonial reality.
+              </p>
+            </div>
+
+            <div class="work-card">
+              <a href="https://youtu.be/KMeb90CWMW0" target="_blank" rel="noopener noreferrer">
+                <img src="image/Looking For Someone To Be ShortVersion.png" alt="Looking For Someone To Be ShortVersion" />
+              </a>
+              <h2 data-en="Looking For Someone To Be ShortVersion" data-de="Looking For Someone To Be KurzVersion">
+                Looking For Someone To Be ShortVersion
+              </h2>
+              <p
+                data-en="“Who do you want to be?”
+
+              This question is not easy to answer. I've asked myself the same many times often without a clear response. But for me, the person I ultimately want to be is my “true self.”
+              
+              This journey is about discovering and embracing one's inner value and beauty rather than conforming to external expectations or societal roles. Compromise and adaptation can become routine, but in doing so, there's a risk of losing one's essence.
+              
+              The piece explores these kinds of questions and inner dilemmas. It tells the story of a person who tries to live up to the image others have of them  and loses themselves along the way.
+              
+              “Looking For Someone To Be” is a reflection on our inner desires and human values. Through the solo journey of one figure on stage, the piece invites us to rediscover the beauty and meaning of 
+              self-acceptance."
+                data-de="„Wer möchtest du sein?“ 
+                
+                Diese Frage ist nicht leicht zu beantworten. Ich habe sie mir selbst oft gestellt - oft ohne klare Antwort. 
+                Für mich ist die Person, die ich letztlich sein möchte, mein „wahres Ich“. 
+                
+                Diese Reise dreht sich darum, den eigenen inneren Wert und die eigene Schönheit zu entdecken und zu akzeptieren, statt sich äußeren Erwartungen oder gesellschaftlichen Rollen zu beugen. Kompromisse und Anpassung können zur Gewohnheit werden, doch dabei läuft man Gefahr, sein eigenes Wesen zu verlieren. 
+                
+                Das Stück beschäftigt sich mit genau diesen Fragen und inneren Konflikten. Es erzählt die Geschichte eines Menschen, der versucht, dem Bild zu entsprechen, das andere von ihm haben - und sich dabei selbst verliert. 
+
+                „Looking For Someone To Be“ ist eine Reflexion über unsere inneren Wünsche und menschlichen Werte. Durch die Solo-Reise einer Figur auf der Bühne lädt das Stück dazu ein, die Schönheit und Bedeutung der Selbstakzeptanz neu zu entdecken.">
+                “Who do you want to be?”
+                <br />
+                <br />
+                This question is not easy to answer. I've asked myself the same many times often without a clear response. But for me, the
+                person I ultimately want to be is my “true self.”
+                <br />
+                <br />
+                This journey is about discovering and embracing one's inner value and beauty rather than conforming to external expectations
+                or societal roles. Compromise and adaptation can become routine, but in doing so, there's a risk of losing one's essence.
+                <br />
+                <br />
+                The piece explores these kinds of questions and inner dilemmas. It tells the story of a person who tries to live up to the
+                image others have of them and loses themselves along the way.
+                <br />
+                <br />
+                “Looking For Someone To Be” is a reflection on our inner desires and human values. Through the solo journey of one figure on
+                stage, the piece invites us to rediscover the beauty and meaning of self-acceptance.
+              </p>
+            </div>
+
+            <div class="work-card">
+              <a href="https://youtu.be/gYfZ7kS9aQo" target="_blank" rel="noopener noreferrer">
+                <img src="image/Looking For Someone To Be LongVersion.jpg" alt="Looking For Someone To Be LongVersion" />
+              </a>
+              <h2 data-en="Looking For Someone To Be LongVersion" data-de="Looking For Someone To Be LangVersion">
+                Looking For Someone To Be LongVersion
+              </h2>
+              <p
+                data-en="“Who do you want to be?”
+
+              This question is not easy to answer. I've asked myself the same many times often without a clear response. But for me, the person I ultimately want to be is my “true self.”
+              
+              This journey is about discovering and embracing one's inner value and beauty rather than conforming to external expectations or societal roles. Compromise and adaptation can become routine, but in doing so, there's a risk of losing one's essence.
+              
+              The piece explores these kinds of questions and inner dilemmas. It tells the story of a person who tries to live up to the image others have of them  and loses themselves along the way.
+              
+              “Looking For Someone To Be” is a reflection on our inner desires and human values. Through the solo journey of one figure on stage, the piece invites us to rediscover the beauty and meaning of 
+              self-acceptance."
+                data-de="„Wer möchtest du sein?“ 
+                
+              Diese Frage ist nicht leicht zu beantworten. Ich habe sie mir selbst oft gestellt - oft ohne klare Antwort. 
+              Für mich ist die Person, die ich letztlich sein möchte, mein „wahres Ich“. 
+              
+              Diese Reise dreht sich darum, den eigenen inneren Wert und die eigene Schönheit zu entdecken und zu akzeptieren, statt sich äußeren Erwartungen oder gesellschaftlichen Rollen zu beugen. Kompromisse und Anpassung können zur Gewohnheit werden, doch dabei läuft man Gefahr, sein eigenes Wesen zu verlieren. 
+              
+              Das Stück beschäftigt sich mit genau diesen Fragen und inneren Konflikten. Es erzählt die Geschichte eines Menschen, der versucht, dem Bild zu entsprechen, das andere von ihm haben - und sich dabei selbst verliert. 
+
+              „Looking For Someone To Be“ ist eine Reflexion über unsere inneren Wünsche und menschlichen Werte. Durch die Solo-Reise einer Figur auf der Bühne lädt das Stück dazu ein, die Schönheit und Bedeutung der Selbstakzeptanz neu zu entdecken.">
+                “Who do you want to be?”
+                <br />
+                <br />
+                This question is not easy to answer. I've asked myself the same many times often without a clear response. But for me, the
+                person I ultimately want to be is my “true self.”
+                <br />
+                <br />
+                This journey is about discovering and embracing one's inner value and beauty rather than conforming to external expectations
+                or societal roles. Compromise and adaptation can become routine, but in doing so, there's a risk of losing one's essence.
+                <br />
+                <br />
+                The piece explores these kinds of questions and inner dilemmas. It tells the story of a person who tries to live up to the
+                image others have of them and loses themselves along the way.
+                <br />
+                <br />
+                “Looking For Someone To Be” is a reflection on our inner desires and human values. Through the solo journey of one figure on
+                stage, the piece invites us to rediscover the beauty and meaning of self-acceptance.
+              </p>
+            </div>
+
+            <div class="work-card">
+              <a href="https://youtu.be/mELZGcexSl0" target="_blank" rel="noopener noreferrer">
+                <img src="image/Anibody.jpg" alt="ANIBODY" />
+              </a>
+              <h2 data-en="ANIBODY" data-de="ANIBODY">ANIBODY</h2>
+              <p
+                data-en="Is the human also an animal or has instinct long been overridden by consumption, intellect, and cultural constructs? Can we reconnect with the animal within us, and with the wilderness?
+
+            ANIBODY explores these questions through movement and the body. It challenges us to consider whether our senses can help us rediscover instinctive behavior and whether this instinct, often suppressed by modern life, might offer new perspectives on survival in times of climate crisis, war, and cultural alienation.
+            
+            The theme of survival runs throughout the piece from the survival of identities and ethnic groups during displacement, to the evolutionary adaptability of animals over millennia.
+            
+            The piece asks whether a return to instinct in times of crisis is not a regression, but rather a reconnection to something original — a bodily intelligence that may not only secure survival, but also enable a new form of being."
+                data-de="Ist der Mensch auch ein Tier, oder wurde der Instinkt längst durch Konsum, Intellekt und kulturelle Konstrukte überlagert? Können wir uns wieder mit dem Tier in uns und mit der Wildnis verbinden?
+
+            ANIBODY erforscht diese Fragen durch Bewegung und Körper. Das Stück fordert uns heraus zu überlegen, ob unsere Sinne uns helfen können, instinktives Verhalten wiederzuentdecken - und ob dieser Instinkt, der oft durch das moderne Leben unterdrückt wird, neue Perspektiven auf das Überleben in Zeiten von Klimakrise, Krieg und kultureller Entfremdung bieten kann.
+            
+            Das Thema des Überlebens zieht sich durch das gesamte Stück - vom Überleben von Identitäten und ethnischen Gruppen während der Vertreibung bis hin zur evolutionären Anpassungsfähigkeit von Tieren über Jahrtausende hinweg.
+            
+            Das Stück fragt, ob eine Rückkehr zum Instinkt in Krisenzeiten kein Rückschritt, sondern eine Rückverbindung zu etwas Ursprünglichem ist - eine körperliche Intelligenz, die nicht nur das Überleben sichert, sondern auch eine neue Form des Seins ermöglicht.">
+                Is the human also an animal or has instinct long been overridden by consumption, intellect, and cultural constructs?
+                <br />
+                <br />
+                Can we reconnect with the animal within us, and with the wilderness? ANIBODY explores these questions through movement and
+                the body. It challenges us to consider whether our senses can help us rediscover instinctive behavior and whether this
+                instinct, often suppressed by modern life, might offer new perspectives on survival in times of climate crisis, war, and
+                cultural alienation.
+                <br />
+                <br />
+                The theme of survival runs throughout the piece from the survival of identities and ethnic groups during displacement, to
+                the evolutionary adaptability of animals over millennia.
+                <br />
+                <br />
+                The piece asks whether a return to instinct in times of crisis is not a regression, but rather a reconnection to something
+                original — a bodily intelligence that may not only secure survival, but also enable a new form of being.
+              </p>
+            </div>
+
+            <div class="work-card">
+              <a href="https://youtu.be/wAbts5kmOK0" target="_blank" rel="noopener noreferrer">
+                <img src="image/12.09.2017.jpg" alt="12.09.2017" />
+              </a>
+              <h2 data-en="12.09.2017" data-de="12.09.2017">12.09.2017</h2>
+              <p
+                data-en="A solo piece exploring the aftereffects of trauma and the body's capacity to store memory. The work is based on the concept of the body as a living archive a place where emotions, memories, and disturbances are recorded beyond words.
+
+            Through fragile and raw movement, the performance investigates how personal and collective trauma manifests itself in breath, posture, rhythm, and silence.
+            
+            The date 12.09.2017 remains intentionally undefined a symbol of lived experience, unresolved memory, and those formative moments that shape us but evade linguistic explanation."
+                data-de="Ein Solostück, das sich mit den Nachwirkungen von Trauma und der Fähigkeit des Körpers, Erinnerungen zu speichern, auseinandersetzt. Die Arbeit basiert auf dem Konzept des Körpers als lebendiges Archiv - ein Ort, an dem Emotionen, Erinnerungen und Störungen jenseits von Worten aufgezeichnet werden.
+
+Durch fragile und rohe Bewegungen untersucht die Performance, wie sich persönliches und kollektives Trauma in Atem, Haltung, Rhythmus und Stille manifestiert.
+
+Das Datum 12.09.2017 bleibt bewusst undefiniert - ein Symbol für gelebte Erfahrungen, ungelöste Erinnerungen und jene prägenden Momente, die uns formen, aber sich einer sprachlichen Erklärung entziehen.">
+                A solo piece exploring the aftereffects of trauma and the body's capacity to store memory. The work is based on the concept
+                of the body as a living archive a place where emotions, memories, and disturbances are recorded beyond words.
+                <br />
+                <br />
+                Through fragile and raw movement, the performance investigates how personal and collective trauma manifests itself in
+                breath, posture, rhythm, and silence.
+                <br />
+                <br />
+                The date 12.09.2017 remains intentionally undefined a symbol of lived experience, unresolved memory, and those formative
+                moments that shape us but evade linguistic explanation.
+              </p>
+            </div>
+
+            <div class="work-card">
+              <a href="https://youtu.be/RAwIoSFRLzU" target="_blank" rel="noopener noreferrer">
+                <img src="image/Unpaved Road.avif" alt="Unpaved Road" />
+              </a>
+              <h2 data-en="Unpaved Road" data-de="Unpaved Road">Unpaved Road</h2>
+              <p
+                data-en="A solo piece exploring the emotional and physical landscape of uncertainty.
+            The work reflects the vulnerability inherent in moving forward without clear direction when the path is felt but not yet visible.
+            
+            Through minimalist aesthetics and focused physical presence, the dancer embodies fragile determination.
+            
+            The piece oscillates between hesitation and drive, stillness and movement—unveiling emotional layers of decision-making, perseverance, and quiet resistance."
+                data-de="Ein Solostück, das die emotionale und physische Landschaft der Unsicherheit erkundet. Die Arbeit spiegelt die Verletzlichkeit wider, die im Voranschreiten ohne klare Richtung liegt - wenn der Weg gespürt, aber noch nicht sichtbar ist.
+
+            Durch minimalistische Ästhetik und fokussierte körperliche Präsenz verkörpert der Tänzer eine fragile Entschlossenheit.
+            
+            Das Stück oszilliert zwischen Zögern und Antrieb, Stille und Bewegung - und enthüllt dabei emotionale Schichten von Entscheidungsfindung, Durchhaltevermögen und stiller Widerständigkeit.">
+                A solo piece exploring the emotional and physical landscape of uncertainty. The work reflects the vulnerability inherent in
+                moving forward without clear direction when the path is felt but not yet visible.
+                <br />
+                <br />
+                Through minimalist aesthetics and focused physical presence, the dancer embodies fragile determination.
+                <br />
+                <br />
+                The piece oscillates between hesitation and drive, stillness and movement—unveiling emotional layers of decision-making,
+                perseverance, and quiet resistance.
+              </p>
+            </div>
+
+            <div class="work-card">
+              <a href="https://youtu.be/YnhmBehWvEA" target="_blank" rel="noopener noreferrer">
+                <img src="image/Politicalness.jpg" alt="Politicalness" />
+              </a>
+              <h2 data-en="Politicalness" data-de="Politicalness">Politicalness</h2>
+              <p
+                data-en="What does it mean for a body to be political?
+            This piece investigates how political realities are not only spoken about but also felt, lived, and carried by the body in posture, tension, and breath.
+            
+            Without an explicit narrative, Politicalness explores the subtle, often unconscious ways in which political awareness becomes embodied.
+            
+            The work deliberately avoids slogans, drawing attention instead to presence and physical nuance as forms of resistance, critique, and reflection."
+                data-de="Was bedeutet es, dass ein Körper politisch ist?
+
+            Dieses Stück untersucht, wie politische Realitäten nicht nur ausgesprochen, sondern auch vom Körper gespürt, gelebt und getragen werden - in Haltung, Spannung und Atmung.
+            
+            Ohne explizite Erzählung erforscht Politicalness die subtilen, oft unbewussten Wege, auf denen sich politisches Bewusstsein im Körper manifestiert.
+            
+            Die Arbeit verzichtet bewusst auf Slogans und lenkt die Aufmerksamkeit stattdessen auf Präsenz und körperliche Nuancen - als Formen von Widerstand, Kritik und Reflexion.">
+                What does it mean for a body to be political? This piece investigates how political realities are not only spoken about but
+                also felt, lived, and carried by the body in posture, tension, and breath.
+                <br />
+                <br />
+                Without an explicit narrative, Politicalness explores the subtle, often unconscious ways in which political awareness
+                becomes embodied.
+                <br />
+                <br />
+                The work deliberately avoids slogans, drawing attention instead to presence and physical nuance as forms of resistance,
+                critique, and reflection.
+              </p>
+            </div>
+
+            <div class="work-card">
+              <a href="https://youtu.be/2OClNmNCJb0" target="_blank" rel="noopener noreferrer">
+                <img src="image/Soliloquy.avif" alt="Soliloquy" />
+              </a>
+              <h2 data-en="Soliloquy" data-de="Soliloquy">Soliloquy</h2>
+              <p
+                data-en="A solo unfolding like an inner monologue
+            not spoken, but expressed physically.
+            
+            Soliloquy reflects loneliness, inner conflicts, and the quiet search for meaning within oneself.
+            
+            Without words, the body becomes the voice traversing layers of thoughts, feelings, and memories. Movements emerge and dissolve like fleeting reflections. 
+            
+            The piece does not seek resolution; instead, it creates space for vulnerability and presence in simply existing."
+                data-de="Ein Solo, das sich wie ein innerer Monolog entfaltet - nicht gesprochen, sondern körperlich ausgedrückt.
+
+            Soliloquy reflektiert Einsamkeit, innere Konflikte und die stille Suche nach Sinn im eigenen Selbst.
+            
+            Ohne Worte wird der Körper zur Stimme, durchquert Schichten von Gedanken, Gefühlen und Erinnerungen. Bewegungen tauchen auf und verschwinden wie flüchtige Spiegelungen.
+            
+            Das Stück sucht keine Lösung - vielmehr schafft es Raum für Verletzlichkeit und Präsenz im einfachen Dasein.">
+                A solo unfolding like an inner monologue not spoken, but expressed physically.
+                <br />
+                <br />
+                Soliloquy reflects loneliness, inner conflicts, and the quiet search for meaning within oneself.
+                <br />
+                <br />
+                Without words, the body becomes the voice traversing layers of thoughts, feelings, and memories. Movements emerge and
+                dissolve like fleeting reflections.
+                <br />
+                <br />
+                The piece does not seek resolution; instead, it creates space for vulnerability and presence in simply existing.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="press" class="fade-in">
+        <div class="container">
+          <h1 data-en="Press" data-de="Kritik">Press</h1>
+          <div class="press-grid">
+            <div class="press-item"><img src="image/Screenshot 2023-01-24 at 10.47.46 PM.png" alt="Press image 1" /></div>
+            <div class="press-item"><img src="image/Screenshot 2024-04-21 at 13.21.54.png" alt="Press image 2" /></div>
+            <div class="press-item"><img src="image/Screenshot 2025-04-18 at 15.38.09.png" alt="Press image 3" /></div>
+            <div class="press-item"><img src="image/Anibody clean kritik.png" alt="Press image 4" /></div>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="fade-in">
+        <div class="container">
+          <h1 data-en="Contact" data-de="Kontakt">Contact</h1>
+          <p data-en="You can reach me via:" data-de="Sie können mich erreichen über:">You can reach me via:</p>
+          <div class="social-links">
+            <a href="mailto:seungdance@gmail.com" target="_blank" aria-label="Email">
+              <i class="fas fa-envelope"></i>
+            </a>
+            <a href="https://www.instagram.com/seungdance" target="_blank" aria-label="Instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <button id="backToTop" aria-label="Back to top">↑</button>
+    <script src="script.js"></script>
+  </body>
+</html>

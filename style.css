@@ -615,8 +615,15 @@ button:active {
   text-align: left;
 }
 footer {
-  text-align: left;
+  width: 100vw; /* use full browser width */
+  margin: 0; /* remove any outer margin */
   padding: 3rem 2rem;
   font-size: 0.9rem;
   color: #888;
+  text-align: left;
+  background-color: #111; /* match your theme or make it stand out */
+}
+
+footer * {
+  max-width: none !important;
 }

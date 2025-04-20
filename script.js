@@ -55,3 +55,6 @@ window.addEventListener("scroll", () => {
 backToTopBtn.addEventListener("click", () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
 });
+document.getElementById("hamburger").addEventListener("click", function () {
+  document.getElementById("nav-links").classList.toggle("show");
+});

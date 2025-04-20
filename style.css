@@ -700,7 +700,19 @@ footer * {
   flex: 1;
   display: flex;
   justify-content: flex-end;
-  }
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 0.25rem;
+  margin: 0;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  
 
   .nav-links {
     position: absolute;

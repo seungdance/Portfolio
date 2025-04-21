@@ -16,22 +16,22 @@
   </head>
   <body>
     <header class="navbar">
-      <a href="index.html">
-        <div class="logo">Portfolio</div>
-      </a>
-       <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
-    ☰
-  </button>
+      <div class="nav-top">
+        <a href="index.html"><div class="logo">Seung Hwan Lee</div></a>
+      </div>
+      <div class="nav-bottom">
+        <button class="hamburger" id="hamburger" aria-label="Toggle navigation">☰</button>
+        <div class="lang-toggle">
+          <button id="enBtn">EN</button>
+          <button id="deBtn">DE</button>
+        </div>
+      </div>
       <nav class="nav-links" id="nav-links">
         <a href="#about" data-en="About" data-de="Über Mich">About</a>
         <a href="#works" data-en="Works" data-de="Arbeiten">Works</a>
         <a href="#press" data-en="Press" data-de="Kritik">Press</a>
         <a href="#contact" data-en="Contact" data-de="Kontakt">Contact</a>
       </nav>
-      <div class="lang-toggle">
-        <button id="enBtn">EN</button>
-        <button id="deBtn">DE</button>
-      </div>
     </header>
 
     <main>
@@ -39,7 +39,6 @@
         <div class="container">
           <img src="image/Tube.jpg" alt="Portrait for About section" />
           <h1 data-en="About Me" data-de="Über Mich">About Me</h1>
-          <h1 id="name">Seung Hwan Lee</h1>
 
           <h2 data-en="Dancer" data-de="Tänzer">Dancer</h2>
           <p
@@ -429,8 +428,9 @@ Das Datum 12.09.2017 bleibt bewusst undefiniert - ein Symbol für gelebte Erfahr
       </section>
     </main>
     <footer><p>© 2025 Seung Hwan Lee. All rights reserved.</p></footer>
-  
+
     <button id="backToTop" aria-label="Back to top">↑</button>
     <script src="script.js"></script>
   </body>
 </html>
+

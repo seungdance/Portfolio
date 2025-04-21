@@ -691,6 +691,11 @@ footer * {
   cursor: pointer;
   margin-left: auto;
 }
+.logo,
+.lang-toggle,
+.hamburger {
+  flex: none;
+}
 
 /* Mobile nav menu */
 /* Mobile nav menu */

@@ -60,4 +60,22 @@ const navLinks = document.getElementById("nav-links");
 
 hamburger.addEventListener("click", () => {
   navLinks.classList.toggle("show");
+  // Prevent body scroll when menu is open
+  document.body.style.overflow = navLinks.classList.contains("show") ? "hidden" : "";
+});
+
+// Close menu when clicking outside
+document.addEventListener("click", (e) => {
+  if (!hamburger.contains(e.target) && !navLinks.contains(e.target) && navLinks.classList.contains("show")) {
+    navLinks.classList.remove("show");
+    document.body.style.overflow = "";
+  }
+});
+
+// Close menu when clicking a link
+navLinks.querySelectorAll("a").forEach((link) => {
+  link.addEventListener("click", () => {
+    navLinks.classList.remove("show");
+    document.body.style.overflow = "";
+  });
 });
